@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6134D9EF19CC2B8B004FEBD1 /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6134D9EE19CC2B8B004FEBD1 /* Connector.swift */; };
+		613D860D19CC2432009C1866 /* ischoolFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 613D860C19CC2432009C1866 /* ischoolFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		613D861719CC2432009C1866 /* ischoolFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613D861619CC2432009C1866 /* ischoolFrameworkTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6134D9EE19CC2B8B004FEBD1 /* Connector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
+		613D860719CC2432009C1866 /* ischoolFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ischoolFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		613D860B19CC2432009C1866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		613D860C19CC2432009C1866 /* ischoolFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ischoolFramework.h; sourceTree = "<group>"; };
+		613D861219CC2432009C1866 /* ischoolFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ischoolFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		613D861519CC2432009C1866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		613D861619CC2432009C1866 /* ischoolFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ischoolFrameworkTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		613D860319CC2432009C1866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613D860F19CC2432009C1866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		613D85FD19CC2432009C1866 = {
+			isa = PBXGroup;
+			children = (
+				613D860919CC2432009C1866 /* ischoolFramework */,
+				613D861319CC2432009C1866 /* ischoolFrameworkTests */,
+				613D860819CC2432009C1866 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		613D860819CC2432009C1866 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				613D860719CC2432009C1866 /* ischoolFramework.framework */,
+				613D861219CC2432009C1866 /* ischoolFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		613D860919CC2432009C1866 /* ischoolFramework */ = {
+			isa = PBXGroup;
+			children = (
+				613D860C19CC2432009C1866 /* ischoolFramework.h */,
+				613D860A19CC2432009C1866 /* Supporting Files */,
+				6134D9EE19CC2B8B004FEBD1 /* Connector.swift */,
+			);
+			path = ischoolFramework;
+			sourceTree = "<group>";
+		};
+		613D860A19CC2432009C1866 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				613D860B19CC2432009C1866 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		613D861319CC2432009C1866 /* ischoolFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				613D861619CC2432009C1866 /* ischoolFrameworkTests.swift */,
+				613D861419CC2432009C1866 /* Supporting Files */,
+			);
+			path = ischoolFrameworkTests;
+			sourceTree = "<group>";
+		};
+		613D861419CC2432009C1866 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				613D861519CC2432009C1866 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		613D860419CC2432009C1866 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613D860D19CC2432009C1866 /* ischoolFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		613D860619CC2432009C1866 /* ischoolFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 613D861A19CC2432009C1866 /* Build configuration list for PBXNativeTarget "ischoolFramework" */;
+			buildPhases = (
+				613D860219CC2432009C1866 /* Sources */,
+				613D860319CC2432009C1866 /* Frameworks */,
+				613D860419CC2432009C1866 /* Headers */,
+				613D860519CC2432009C1866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ischoolFramework;
+			productName = ischoolFramework;
+			productReference = 613D860719CC2432009C1866 /* ischoolFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		613D861119CC2432009C1866 /* ischoolFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 613D861D19CC2432009C1866 /* Build configuration list for PBXNativeTarget "ischoolFrameworkTests" */;
+			buildPhases = (
+				613D860E19CC2432009C1866 /* Sources */,
+				613D860F19CC2432009C1866 /* Frameworks */,
+				613D861019CC2432009C1866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ischoolFrameworkTests;
+			productName = ischoolFrameworkTests;
+			productReference = 613D861219CC2432009C1866 /* ischoolFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		613D85FE19CC2432009C1866 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Cloud;
+				TargetAttributes = {
+					613D860619CC2432009C1866 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					613D861119CC2432009C1866 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 613D860119CC2432009C1866 /* Build configuration list for PBXProject "ischoolFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 613D85FD19CC2432009C1866;
+			productRefGroup = 613D860819CC2432009C1866 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				613D860619CC2432009C1866 /* ischoolFramework */,
+				613D861119CC2432009C1866 /* ischoolFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		613D860519CC2432009C1866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613D861019CC2432009C1866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		613D860219CC2432009C1866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6134D9EF19CC2B8B004FEBD1 /* Connector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613D860E19CC2432009C1866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613D861719CC2432009C1866 /* ischoolFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		613D861819CC2432009C1866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		613D861919CC2432009C1866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		613D861B19CC2432009C1866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ischoolFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		613D861C19CC2432009C1866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ischoolFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		613D861E19CC2432009C1866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ischoolFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		613D861F19CC2432009C1866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ischoolFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		613D860119CC2432009C1866 /* Build configuration list for PBXProject "ischoolFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				613D861819CC2432009C1866 /* Debug */,
+				613D861919CC2432009C1866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		613D861A19CC2432009C1866 /* Build configuration list for PBXNativeTarget "ischoolFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				613D861B19CC2432009C1866 /* Debug */,
+				613D861C19CC2432009C1866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		613D861D19CC2432009C1866 /* Build configuration list for PBXNativeTarget "ischoolFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				613D861E19CC2432009C1866 /* Debug */,
+				613D861F19CC2432009C1866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 613D85FE19CC2432009C1866 /* Project object */;
+}
